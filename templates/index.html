@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Custom Search Engine</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="{% if home_page %}home-page{% endif %}">
+
+    <div class="home-container">
+        <h1>Welcome to The Custom Search Engine</h1>
+        <p>Find what you're looking for, fast and easy.</p>
+
+        <div class="search-container">
+            <form action="/search" method="get">
+                <input type="text" name="query" placeholder="Search the web..." required>
+                <select name="category">
+                    <option value="web">Web</option>
+                    <option value="images">Images</option>
+                    <option value="news">News</option>
+                    <option value="videos">Videos</option>
+                </select>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
