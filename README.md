@@ -21,14 +21,23 @@ Steps
 1. Clone the repository:
 
 git clone https://github.com/gracy1305/QuickFind.git
+
 cd QuickFind
+
 2. Install dependencies:
+
 pip install -r requirements.txt
+
 3. Configure API credentials in app.py:
+
 API_KEY = "your-API-KEY"
+
 CSE_ID = "your-CSE-ID"
+
 4. Run the application:
+
 python app.py
+
 5. Open http://127.0.0.1:5000/ in your browser.
 
 Project Structure
