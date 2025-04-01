@@ -18,9 +18,9 @@ Prerequisites
 * A Google Custom Search API key and CSE ID
 
 Steps
-1. Clone the repository:/n
+1. Clone the repository:
 
-git clone https://github.com/gracy1305/QuickFind.git/n
+git clone https://github.com/gracy1305/QuickFind.git
 cd QuickFind
 2. Install dependencies:
 pip install -r requirements.txt
